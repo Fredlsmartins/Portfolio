@@ -25,7 +25,7 @@ header {
 header .container-logo > img{
     width: 140px;
     height: 100px;
-    margin-left: 100px;
+    margin-left: 72px;
 }
 
 header .navbar{
@@ -133,7 +133,7 @@ main .container-box2:hover {
  
 }
 .titleh2{
-
+    margin-left: 72px;
 }
 /* box de projetos */
 
@@ -193,13 +193,46 @@ main .container-box2:hover {
 
 
 /* projetos github */
-.container-github > a {
-
+.container-github  {
+    margin-left: 67px;
 }
 .container-github > a > img {
     margin-top: 10px;
     animation: pingar 0.8s infinite alternate ease-in ;
 }
+
+/* Sobre mim */
+
+.container-sobremim {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #f2faf03a;
+}
+
+.sobremim {
+    display: flex;
+    width: 100%;
+   
+}
+
+.about-esquerda > img{
+    margin-left: 69px;
+    margin-right: 10px;
+    border-radius: 30px;
+    width: 700px;
+    height: 700px;
+    background-image: url(/imagens/profile.jpg);
+    background-size: cover;
+}
+.about-direita h1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.about-direita > h1, p {
+    text-align: center;
+}
+
+
 
 @keyframes pingar {
     0%{
