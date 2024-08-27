@@ -1,0 +1,218 @@
+@charset "UFT8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  
+    
+
+}
+/* barra de navegacao header */
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+header .container-logo > img{
+    width: 140px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+header .navbar{
+   width: 700px;
+   display: flex;
+   justify-content: end;
+   gap:80px;
+   
+}
+
+header .navbar > a {
+  color: #000000e5;
+  font-weight: 500;
+}
+
+header .navbar > a:hover {
+    color: #3bbe12;
+    text-shadow: 0px 1px 4px rgb(230, 224, 219);
+}
+
+
+main {
+   height: calc(100vh - 100px);
+   margin-left: 10px;
+   margin-right: 10px; 
+}
+
+main .container-boxb {
+    height: calc(730px - 100px);
+    background-size: cover ;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* esquerda */
+main .containerbox1 {
+   
+    margin-top: 150px;
+    padding: 10px;
+}
+
+main .containerbox1 > h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+main .containerbox1 > h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+main .containerbox1 > p {
+    min-width: 395px;
+    max-width: 500px;
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+main .containerbox1 > a > img{
+    width: 40px;
+    background-color: rgb(253, 252, 252);
+    animation: pingar 0.8s infinite alternate ease-in ;
+}
+main .containerbox1 > a:hover{
+    border: solid 2px #c3c3c3;
+}
+
+
+
+/* direita */
+
+main .container-box2 {
+    margin-left: 100px;
+  
+    width: 50%;
+    background-image: url('https://i.pinimg.com/originals/ef/58/66/ef58669f8c612eba340111efac3168ad.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    transition: 1.5s;
+    overflow: hidden;
+   
+}
+
+main .container-box2:hover {
+    scale: 1.03;
+    overflow: hidden;
+}
+
+/* projetos */
+
+.container-boxp{
+    padding-top: 30px;
+}
+
+.container-projetos {
+    
+}
+
+.title {
+
+  text-align: center;
+ 
+}
+.titleh2{
+
+}
+/* box de projetos */
+
+.projetos {
+    
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.pb1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1419px;
+  
+  
+}
+
+.projetos-box {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(248, 241, 233);
+    background-image: url(/imagens/projetoimg.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 4px white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.projetos-box:hover {
+    scale: 1.007;
+}
+
+.projeto-boxlegend{
+    top: 77%;
+    position: relative;
+    height:70px;
+    background-color: rgba(250, 235, 215, 0.89);
+    transition: 1.2s;
+    text-align: center;
+}
+
+.projeto-boxlegend:hover{
+    scale: 1.2;
+    height: 100px;
+   
+}
+
+.projeto-boxlegend > a{
+    color: blue;
+    font-weight: 500;
+}
+
+
+/* projetos github */
+.container-github > a {
+
+}
+.container-github > a > img {
+    margin-top: 10px;
+    animation: pingar 0.8s infinite alternate ease-in ;
+}
+
+@keyframes pingar {
+    0%{
+        transform: translateY(-15px);
+   
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1260px ){
+    .container-box2 {
+        display: none;
+    }
+}
