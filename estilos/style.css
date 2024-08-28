@@ -251,8 +251,12 @@ main .container-box2:hover {
      text-align: center;
      font-size:20px;
        }
-    .containerbox1 > p{
-    font-size: 14px;
+    .containerbox1 > p {
+    min-width: 395px;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 15px;
 }
     .container-box2 {
         display: none;
