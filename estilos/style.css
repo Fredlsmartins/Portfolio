@@ -251,6 +251,9 @@ main .container-box2:hover {
      text-align: center;
      font-size:20px;
        }
+    .containerbox1 > p{
+    font-size: 14px;
+}
     .container-box2 {
         display: none;
     }
