@@ -247,7 +247,7 @@ main .container-box2:hover {
 }
 
 @media screen and (max-width: 1260px ){
-    .container-box1 > h1{
+    .containerbox1 > h1{
      text-align: center;
      font-size:20px;
        }
